@@ -15,5 +15,8 @@
  */
 
 .container {
-  grid-template-columns: /*think about using repeat and minmax here*/
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: 100px 100px;
+  grid-auto-flow: row;
 }
