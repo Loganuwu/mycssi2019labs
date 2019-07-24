@@ -1,0 +1,80 @@
+/*
+ * Copyright 2018 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.container {
+  display:grid;
+  /* Style the template for the grid */
+  grid-template-columns: 40px 2fr 2fr 2fr 40px;
+  grid-template-rows: 40px 100px 400px 100px 2fr;
+}
+
+/* Making border black */
+#sideL {
+  background-color: black;
+    grid-row: 1 / span 5;
+}
+#top {
+  background-color: black;
+  grid-row: 1;
+  grid-column: 2 / span 4;
+}
+#sideR {
+  background-color: black;
+  grid-column: 5;
+  grid-row: 2 / span 5;
+}
+#sideB {
+  background-color: black;
+    grid-column: span 5;
+}
+#title {
+  grid-column: 2 / span 3;
+  grid-row:2;
+}
+#date {
+  grid-column: 4;
+  grid-row: 4;
+}
+#photo {
+  background-color: green;
+
+  grid-column: 2;
+  grid-row: 3;
+}
+#photo2 {
+  background-color: orange;
+
+  grid-column: 3;
+  grid-row: 3;
+}
+#photo3 {
+  background-color: blue;
+
+  grid-column: 4;
+  grid-row: 3;
+}
+#caption {
+  background-color: blue;
+
+  grid-column: 2 / span 3;
+  grid-row: 4;
+  text-align: left;
+}
+.photo {
+  grid-column: /*insert format*/;
+}
+
+/* Style remaining grid elements */
