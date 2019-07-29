@@ -16,7 +16,7 @@ def get_meme_url(meme_choice):
     elif meme_choice == 'college-grad':
         url = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/LinusPaulingGraduation1922.jpg'
     elif meme_choice == 'thinking-ape':
-        url = 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Deep_in_thought.jpg'
+        url = 'https://i2.wp.com/78.media.tumblr.com/47c791d8c7f5013f04d001bc7590ed62/tumblr_pcpt2sP57T1x0dmheo1_400.gif?w=605&ssl=1'
     elif meme_choice == 'coding':
         url = 'https://cnet2.cbsistatic.com/img/UBjs76aKTzgolzX4LPmhjuesXIY=/1600x900/2018/05/09/184a5e8a-b6df-434d-a02a-c921d64b8dab/scua6kiby05vfqzbobfu.jpg'
     return url
