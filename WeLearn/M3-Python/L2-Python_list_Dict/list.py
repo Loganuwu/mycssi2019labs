@@ -32,3 +32,20 @@ names  = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
 print(names[::-1]) #prints backwards Robb Jon Sansa Arya Bran Rickon
 print(names[4:2:-1]) # reversed list, starting at index 4 and continues to 2 but does not print 2, prints Jon Sansa
 print(names[::2])
+
+states = {
+    "NY": "New York",
+    "CA": "California",
+    "TX": "Texas",
+    "AZ": "Arizona",
+    "CO": "Colorado",
+    "OH": "Ohio"
+}
+
+for abbreviation in states:
+    print(abbreviation + " is short for " + states[abbreviation])
+
+stateInput = str(raw_input("Enter a state abbreviation "))
+
+if stateInput == abbreviation:
+    print("Hi")
